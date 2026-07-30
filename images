@@ -1,1 +1,14 @@
+<section class="gallery">
+    <h2>Фото товару</h2>
 
+    <div class="gallery-grid">
+        <img src="https://i.ibb.co/5hyfhZp1/IMG-2608.jpg" alt="MiniVac Pro">
+        <img src="https://i.ibb.co/NdxFtXPV/IMG-2609.jpg" alt="MiniVac Pro">
+        <img src="https://i.ibb.co/VcCHqFbp/IMG-2610.jpg" alt="MiniVac Pro">
+        <img src="https://i.ibb.co/Gv8WmKPQ/IMG-2611.jpg" alt="MiniVac Pro">
+        <img src="https://i.ibb.co/204DqNSq/IMG-2612.jpg" alt="MiniVac Pro">
+        <img src="https://i.ibb.co/6G9Wx82/IMG-2613.jpg" alt="MiniVac Pro">
+        <img src="https://i.ibb.co/Ng369CZr/IMG-2614.jpg" alt="MiniVac Pro">
+        <img src="https://i.ibb.co/7dcptgxf/IMG-2615.jpg" alt="MiniVac Pro">
+    </div>
+</section>
