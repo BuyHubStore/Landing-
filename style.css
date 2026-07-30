@@ -447,3 +447,22 @@ padding:60px 0;
     color: #e53935;
     margin-top: 10px;
 }
+.slider {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+
+.slider::-webkit-scrollbar {
+    display: none;
+}
+
+.slider img {
+    min-width: 100%;
+    border-radius: 20px;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+}
