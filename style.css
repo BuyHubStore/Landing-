@@ -394,3 +394,14 @@ padding:60px 0;
 
 }
 
+.telegram-text{
+    max-width:600px;
+    margin:20px auto;
+    font-size:18px;
+    opacity:.9;
+}
+
+.cta{
+    border-radius:30px;
+    margin:30px;
+}
