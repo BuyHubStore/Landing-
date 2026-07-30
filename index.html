@@ -193,4 +193,28 @@ href="https://t.me/buyhub_store">
 </section>
 <script src="script.js"></script>
 </body>
-</html>
+<script>
+let end = new Date();
+end.setHours(end.getHours() + 12);
+
+function updateTimer() {
+    let now = new Date();
+    let diff = end - now;
+
+    if (diff <= 0) {
+        end = new Date();
+        end.setHours(end.getHours() + 12);
+        diff = end - now;
+    }
+
+    let h = Math.floor(diff / 1000 / 60 / 60);
+    let m = Math.floor((diff / 1000 / 60) % 60);
+    let s = Math.floor((diff / 1000) % 60);
+
+    document.getElementById("countdown").innerHTML =
+        `${h.toString().padStart(2,'0')}:${m.toString().padStart(2,'0')}:${s.toString().padStart(2,'0')}`;
+}
+
+setInterval(updateTimer, 1000);
+updateTimer();
+</script></html>
